@@ -44,7 +44,7 @@ st.subheader("Conteo de Estudiantes por Nivel Educativo")
 st.bar_chart(df_filtrado["Nivel educativo"].value_counts())
 
 # Distribución de la Edad
-st.subheader("Distribución de la Edad")
+st.subheader("Distribución de la Edad.")
 # Crear un histograma usando matplotlib
 fig, ax = plt.subplots()
 ax.hist(df_filtrado["Edad"], bins=10, color='blue', alpha=0.7)
